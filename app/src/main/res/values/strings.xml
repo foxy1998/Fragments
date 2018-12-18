@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="add">Добавить слово</string>
+    <string name="delete">Удалить слово</string>
+    <string name="replace">Перевести слово</string>
+    <string name="russian">Хорошая девочка - жопастая девочка</string>
+    <string name="english">Veronika</string>
+    <string name="translator">Переводчик</string>
+    <string name="vocabulary">Мой словарь</string>
+    <string name="train">Тренероваться</string>
+
+</resources>

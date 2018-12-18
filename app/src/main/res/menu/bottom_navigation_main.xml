@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_translator"
+        android:enabled="true"
+        android:icon="@drawable/translator"
+        android:title="@string/translator"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_vocabulary"
+        android:enabled="true"
+        android:icon="@drawable/vocabulary"
+        android:title="@string/vocabulary"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_train"
+        android:enabled="true"
+        android:icon="@drawable/train"
+        android:title="@string/train"
+        app:showAsAction="always|withText" />
+</menu>

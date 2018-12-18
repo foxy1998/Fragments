@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/liner1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/button_replace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/replace"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_for_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:menu="@menu/bottom_navigation_main" />
+
+
+</LinearLayout>
